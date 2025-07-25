@@ -1,6 +1,6 @@
-Enviroment creation:
-bash create_env.sh to create AML_exam_env
-It requires ipykernel package installation
+Enviroment creation:\
+bash create_env.sh to create AML_exam_env\
+It requires ipykernel package installation\
 
 
 Workflow Summary:

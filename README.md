@@ -10,9 +10,6 @@ BBBP.ipynb:\
 Converts SMILES to molecules\
 Computes descriptors (rdkit or mordred)\
 Cleans and scales the resulting feature set\
-Optionally re-attaches:\
-Molecule names or IDs\
-Target/label values\
 Returns the final descriptor matrix (with rdkit or mordred) and save it in a .cvs
 
 BBBP_rdkit/BBBP_mordred.ipynb:\

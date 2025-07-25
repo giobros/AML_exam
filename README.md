@@ -16,9 +16,9 @@ Returns the final descriptor matrix (with rdkit or mordred) and save it in a .cv
 
 BBBP_rdkit/BBBP_mordred.ipynb:\
 Data loading (created in the previous notebook) and cleaning\
-Benchmark comparison of multiple machine learning models using cross-validation, and evaluating them based on ROC-AUC and F1-score.\
-Imbalanced classification strategy comparison for logistic regression: the model is unbalanced so I showed the results using balanced model - unbalanced model - SMOTE.\
-Compares 3 versions of SVM on BBBP:
+Benchmark comparison of ML models using cross-validation, and evaluating them based on ROC-AUC and F1-score.\
+Imbalanced classification strategy comparison for logistic regression: balanced model (wrong one) - unbalanced model - SMOTE.\
+Compares 3 versions of SVM on BBBP:\
 Untuned SVM (default params)\
 SVM tuned with GridSearchCV\
 SVM tuned with Genetic Algorithm

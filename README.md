@@ -21,7 +21,7 @@ Imbalanced classification strategy comparison for logistic regression: the model
 Compares 3 versions of SVM on BBBP:
 Untuned SVM (default params)\
 SVM tuned with GridSearchCV\
-SVM tuned with Genetic Algorithm\
+SVM tuned with Genetic Algorithm
 
 GNN.ipynb\
 Comparison of four different Graph Neural Network:  powerful tools for analyzing molecular data due to their ability to directly operate on the inherent graph structure of molecules.

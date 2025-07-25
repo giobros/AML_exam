@@ -6,9 +6,9 @@ It requires ipykernel package installation
 Workflow Summary:
 
 BBBP.ipynb:\
-Converts SMILES to molecules-->\
-Computes descriptors (rdkit or mordred)-->\
-Cleans and scales the resulting feature set-->\
+Converts SMILES to molecules\
+Computes descriptors (rdkit or mordred)\
+Cleans and scales the resulting feature set\
 Optionally re-attaches:\
 Molecule names or IDs\
 Target/label values\

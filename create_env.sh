@@ -18,5 +18,5 @@ pip install imblearn
 pip install torch
 pip install torch_geometric
 
-echo "Environment 'AML_exam_env' created successfully!"
-echo "It requires ipykernel package installation in jupiter!"
+echo "It could require ipykernel package installation in jupiter"
+

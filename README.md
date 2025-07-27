@@ -24,3 +24,33 @@ SVM tuned with Genetic Algorithm
 GNN.ipynb\
 Comparison of four different Graph Neural Network:  powerful tools for analyzing molecular data due to their ability to directly operate on the inherent graph structure of molecules.
 
+START
+  │
+  ├──► Feature Extraction
+  │     ├── Mordred descriptors
+  │     └── RDKit descriptors
+  │       │
+  │       ├──► Model Comparison (on both sets)
+  │       │      ├── Logistic Regression (LR)
+  │       │      ├── Linear Discriminant Analysis (LDA)
+  │       │      ├── k-Nearest Neighbors (KNN)
+  │       │      ├── CART
+  │       │      ├── Naive Bayes (NB)
+  │       │      └── Support Vector Machine (SVM)
+  │       │
+  │       ├──► Logistic Regression (Variants)
+  │       │      ├── Unbalanced
+  │       │      ├── Balanced
+  │       │      └── SMOTE
+  │       │ 
+  │       └────► SVM 
+  │              ├── Untuned
+  │              ├── GridSearchCV
+  │              └── Genetic Algorithm
+  │
+  └──► GNN Models
+        ├── Basic GCN
+        ├── Deep GCN
+        ├── GAT (Graph Attention)
+        └── GIN (Isomorphism)
+
